@@ -24,23 +24,47 @@ body{
     margin: 1.7rem;
 }
 
+
 .main-card{
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    justify-content: center;
+}
+
+.illustration-mockups-image{
+    width: 80vw;
+    /* background-color: red; */
+    margin: 1.6rem auto;
 }
 
 .main-title{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    font-size: 1.5rem;
+    padding: 0 10%;
+    margin-top: 2rem;
 
 }
 
 .description{
+    margin: 0rem auto;
+    font-weight: 400;
+    padding: 0 8%;
+    line-height: 1.5rem;
 
 }
 
 .register-button{
+    color: var(--Violet);
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    background-color: white;
+    padding: 0.9em 6.5em;
+    border-radius: 5em;
+    margin-top: 1.5rem;
+
+    margin-bottom: 5rem;
 
 }
