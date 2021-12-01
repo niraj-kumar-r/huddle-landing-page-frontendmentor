@@ -8,3 +8,8 @@
     --Violet: hsl(257, 40%, 49%);
     --Soft-Magenta: hsl(300, 69%, 71%);
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    /* font-family: 'Poppins', sans-serif; */
+}
