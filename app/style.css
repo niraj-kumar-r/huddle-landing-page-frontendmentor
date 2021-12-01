@@ -9,7 +9,38 @@
     --Soft-Magenta: hsl(300, 69%, 71%);
 }
 body{
+    background-image: url(../images/bg-mobile.svg);
+    background-color: var(--Violet);
+    background-repeat: no-repeat;
+    background-size: 100%;
     font-family: 'Open Sans', sans-serif;
+    color: white;
     font-weight: 400;
     /* font-family: 'Poppins', sans-serif; */
+}
+.huddle-logo{
+    /* background-color: red; */
+    width: 8rem;
+    margin: 1.7rem;
+}
+
+.main-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+
+}
+
+.description{
+
+}
+
+.register-button{
+
 }
