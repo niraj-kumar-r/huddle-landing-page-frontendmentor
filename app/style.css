@@ -84,3 +84,10 @@ body{
     border: 0.1rem solid white;
     border-radius: 2rem;
 }
+
+@media  screen and (min-width: 37.5rem) {
+    body{
+        background-image: url(../images/bg-desktop.svg);
+    }
+    
+}
