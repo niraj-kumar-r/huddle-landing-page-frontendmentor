@@ -7,6 +7,7 @@
 :root{
     --Violet: hsl(257, 40%, 49%);
     --Soft-Magenta: hsl(300, 69%, 71%);
+
 }
 body{
     background-image: url(../images/bg-mobile.svg);
@@ -73,6 +74,14 @@ body{
 
     margin-bottom: 4rem;
 
+    box-shadow: 0.3rem 0.3rem 0.5rem hsl(257, 40%, 28%);
+
+}
+
+.register-button:hover,
+.register-button:focus{
+    background-color: var(--Soft-Magenta);
+    cursor: pointer;
 }
 
 .social-div{
@@ -84,17 +93,22 @@ body{
 }
 
 .social-logo{
-    fill: white;
+    fill: pink;
     width: 1.5rem;
     padding: 15%;
     border: 0.1rem solid white;
     border-radius: 2rem;
 }
 
+.social-logo:hover,
+.social-logo:focus{
+    filter: brightness(0) saturate(100) invert(70%) sepia(90%) saturate(726%) hue-rotate(239deg) brightness(93%) contrast(95%);
+}
+
 @media  screen and (min-width: 950px) {
     body{
         background-image: url(../images/bg-desktop.svg);
-        /* background-size: 100%; */
+        background-size: cover;
 
     }
 
