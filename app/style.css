@@ -145,13 +145,13 @@ body{
 
     .social-div{
         align-self: flex-end;
-        margin-top: 6rem;
-        background-color: red;
-        width: 15rem;
+        margin-top: 4.75rem;
+        /* background-color: red; */
+        width: 10rem;
     }
 
     .social-logo{
-        width: 2.5rem;
+        width: 2rem;
     }
 
     .register-button{
