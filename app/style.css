@@ -39,6 +39,12 @@ body{
     margin: 1.6rem auto;
 }
 
+.main-info-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .main-title{
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
@@ -83,4 +89,76 @@ body{
     padding: 15%;
     border: 0.1rem solid white;
     border-radius: 2rem;
+}
+
+@media  screen and (min-width: 950px) {
+    body{
+        background-image: url(../images/bg-desktop.svg);
+        /* background-size: 100%; */
+
+    }
+
+    .main-card{
+        flex-direction: row;
+        width: 90vw;
+        /* background-color: red; */
+        margin:  3rem auto;
+        align-items: flex-start;
+        /* align-items: stretch; */
+    }
+
+    .illustration-mockups-image{
+        /* background-color: blue; */
+        width: 70vw;
+        margin: 0;
+        /* align-self: center; */
+    }
+
+    .main-info-div{
+        align-items: flex-start;
+        justify-content: flex-start;
+        text-align: left;
+        padding-left: 5.125%;
+        /* padding-right: 2%; */
+        /* margin-top: 1rem; */
+
+        /* background-color: chartreuse; */
+
+
+    }
+
+    .main-title{
+        margin-top: 3.5rem;
+        /* width: 90%; */
+        padding: 0;
+        /* background-color: brown; */
+        font-size: 2.5rem;
+    }
+
+    .description{
+        margin: 1rem auto 0.5rem;
+        padding: 0;
+        /* background-color: rgb(172, 153, 130); */
+
+
+    }
+
+    .social-div{
+        align-self: flex-end;
+        margin-top: 4.75rem;
+        /* background-color: red; */
+        width: 10rem;
+    }
+
+    .social-logo{
+        width: 2rem;
+    }
+
+    .register-button{
+        font-size: 1rem;
+        text-align: center;
+        padding: 1rem 2rem;
+        width: 10.25rem;
+    }
+    
 }
